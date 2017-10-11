@@ -56,10 +56,10 @@ function printQuote() {
   var randomQuote = getRandomQuote();
   var display = "";
 
-  display += '<p class="quote">' + randomQuote.quote </p>;
+  display += '<p class="quote">' + randomQuote.quote "</p>";
   display += '<p class="source">' + randomQuote.source
-                   <span class="citation"> + randomQuote.citation </span>
-                   <span class="year"> + randomQuote.year </span>
+                   "<span" class="citation"> + randomQuote.citation "</span>"
+                   "<span" class="year"> + randomQuote.year "</span>"
               </p>
 
 document.getElementById('quote-box').innerHTML = display;
