@@ -51,17 +51,25 @@ var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
  Math.floor()
 
  function getRandomQuote() {
-   return quotes[Math.floor(Math.random () * quotes.length)]
+   if(quotes.length === 0) {
+
+    return quotes[Math.floor(Math.random () * quotes.length)]
 };
 
 function printQuote() {
   var randomQuote = getRandomQuote();
-  var display;
+  var display = "";
 
-  display += '<p class="quote">' + randomQuote.quote + "</p>";
-  display += '<p class="source">' + randomQuote.source + randomQuote.citation + randomQuote.year + "</p>";
+  display += '<p class="quote">' + randomQuote.quote "</p>";
+  display += '<p class="source">' + randomQuote.source
+                   <span class="citation"> + randomQuote.citation </span>
+                   <span class="year"> + randomQuote.year </span>
+              </p>
 
-document.getElementById('quote-box').innerHTML
+document.getElementById('quote-box').innerHTML = display;
+
+
+
 
 
 
