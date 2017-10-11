@@ -68,6 +68,8 @@ function printQuote() {
 
 document.getElementById('quote-box').innerHTML = display;
 
+printQuote();
+
 
 
 
