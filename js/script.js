@@ -8,13 +8,13 @@ var quotes = [
   quote: "The only source of knowledge is experience.",
   source: "Albert Einstein",
   citation: "German Theoretical-Physicist",
-  year: 1879
+  year: "1879"
 },
 {
   quote: "Create the future of education so I can change as many lives as possible.",
   source: "Ryan Carson",
   citation: "twitter.com",
-  year: 2017
+  year: "2017"
 },
 {
   quote: "If you don't find a way to make money while you sleep, you will work until you die.",
