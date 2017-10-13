@@ -40,7 +40,7 @@ var quotes = [
 
 function getRandomQuote(){
  var randomQuote = Math.floor(Math.random() * (quotes.length));
- return[randomQuote];
+ return quotes[randomQuote];
 }
 
 function printQuote(){
