@@ -34,7 +34,7 @@ var quotes = [
 {
   quote: "I'm not talented, I'm obsessed.",
   source: "Conor McGregor",
-  citation: "twitter.com",
+  citation: "twitter.com"
 }
 ];
 
@@ -44,7 +44,7 @@ function getRandomQuote(){
 }
 
 function printQuote(){
- var dsiplay='';
+ var display='';
  var randomQuote = getRandomQuote(quotes);
 
  display = '<p class="quote">' + randomQuote.quote + '</p>';
