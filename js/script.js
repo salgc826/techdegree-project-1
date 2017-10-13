@@ -44,15 +44,14 @@ function getRandomQuote(){
 }
 
 function printQuote(){
- var dsiplay;
+ var dsiplay='';
  var randomQuote = getRandomQuote(quotes);
 
  display = '<p class="quote">' + randomQuote.quote + '</p>';
  display += '<p class="source">' + randomQuote.source;
- display += '<span class="citation">' + randomQuote.citation + </span>';
- display += '<span class="year">' + randomQuote.year + '</span>' 
+ display += '<span class="citation">' + randomQuote.citation + '</span>';
+ display += '<span class="year">' + randomQuote.year + '</span>'
  display += '</p>';
- 
+
 document.getElementById('quote-box').innerHTML = display;
 };
-
