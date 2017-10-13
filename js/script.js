@@ -1,8 +1,13 @@
+// Carlos Salgado
+// Project #1 - Random Quote Generator
+// Estimated time : 12 hours over 4 days
+
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
  // array of quote objects
+ // 6 quotes
 var quotes = [
 {
   quote: "The only source of knowledge is experience.",
@@ -47,6 +52,8 @@ function getRandomQuote(){
  return quotes[randomQuote];
 }
 
+//printQuote assigns the stored getRandomQuote value to randomQuote
+
 function printQuote(){
  var display='';
  var randomQuote = getRandomQuote();
@@ -57,5 +64,6 @@ function printQuote(){
  display += '<span class="year">' + randomQuote.year + '</span>'
  display += '</p>';
 
+//string is made, which links to the quote-box
 document.getElementById('quote-box').innerHTML = display;
 };
