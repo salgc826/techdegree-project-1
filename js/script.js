@@ -45,7 +45,7 @@ function getRandomQuote(){
 
 function printQuote(){
  var display='';
- var randomQuote = getRandomQuote(quotes);
+ var randomQuote = getRandomQuote();
 
  display = '<p class="quote">' + randomQuote.quote + '</p>';
  display += '<p class="source">' + randomQuote.source;
