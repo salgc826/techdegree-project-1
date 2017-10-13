@@ -37,7 +37,7 @@ var quotes = [
 {
   quote: "I'm not talented, I'm obsessed.",
   source: "Conor McGregor",
-  citation: "twitter.com"
+  citation: "twitter.com",
   year: "2016"
 }
 ];
