@@ -20,25 +20,21 @@ var quotes = [
   quote: "If you don't find a way to make money while you sleep, you will work until you die.",
   source: "Warren Buffett",
   citation: "azquotes.com",
-  year: ""
 },
 {
   quote: "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.",
   source: "Bill Gates",
   citation: "geckoandfly.com",
-  year: ""
 },
 {
   quote: "Maybe they hate me because I'm too good.",
   source: "Cristiano Ronaldo",
   citation: "successsStory.com",
-  year: ""
 },
 {
   quote: "I'm not talented, I'm obsessed.",
   source: "Conor McGregor",
   citation: "twitter.com"
-  year: ""
 }
 ];
 
