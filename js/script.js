@@ -38,34 +38,24 @@ var quotes = [
 }
 ];
 
-quotes.length
-quotes[0]
-quotes[quotes.length - 1]
+function getRandomQuote(){
+ var randomQuote = Math.floor(Math.random() * (quotes.length));
+ return[randomQuote];
+}
 
-var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+function printQuote(){
+ var dsiplay;
+ var randomQuote = getRandomQuote(quotes);
 
- Math.floor()
-
- function getRandomQuote() {
-   if(quotes.length === 0) {
-
-    return quotes[Math.floor(Math.random () * quotes.length)]
-};
-
-function printQuote() {
-  var randomQuote = getRandomQuote();
-  var display = "";
-
-  display += '<p class="quote">' + randomQuote.quote "</p>";
-  display += '<p class="source">' + randomQuote.source
-                   "<span" class="citation"> + randomQuote.citation "</span>"
-                   "<span" class="year"> + randomQuote.year "</span>"
-              </p>
-
+ display = '<p class="quote">' + randomQuote.quote + '</p>';
+ display += '<p class="source">' + randomQuote.source;
+ display += '<span class="citation">' + randomQuote.citation + </span>';
+ display += '<span class="year">' + randomQuote.year + '</span>' 
+ display += '</p>';
+ 
 document.getElementById('quote-box').innerHTML = display;
 
-printQuote();
-
+}
 
 
 
