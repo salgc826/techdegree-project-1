@@ -54,52 +54,5 @@ function printQuote(){
  display += '</p>';
  
 document.getElementById('quote-box').innerHTML = display;
+};
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-];
